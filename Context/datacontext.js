@@ -21,6 +21,7 @@ export const DataProvider = ({children}) => {
     const[qty, setQty] = useState(1);
     const [userLoggedIn, setUserLoggedIn] = useState(false);
     const [user, setUser] = useState({});
+    const [product, setProduct] = useState(productDatas[0]);
 
 //FETCH PRODUCTS FROM BACKEND API
    /* useEffect(() => {
@@ -168,7 +169,7 @@ switch (true) {
    const [paymentDetail , setPaymentDetail] = useState({
    })
    const [successPayment, setSuccessPayment] = useState(false);
-    const [product, setProduct] = useState({});
+   
     //FILTERING PRODUCTS FOR PRODUCT DETAILS PAGE
     const filterProducts = async (id) => {
         let returnProducts = await productDatas.filter(product => product._id === id);
