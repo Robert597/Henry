@@ -7,7 +7,7 @@ import Product from '../../Components/Product';
 const ProductDetails = () => {
     const router = useRouter();  
     const {productDatas, setPaymentDetail, qty, onAdd, product, user} = useStateContext();
-    const [index, setIndex] = useState(0);
+    const [index, setIndex] = useState(1);
   
   return (
     <div>
@@ -19,7 +19,7 @@ const ProductDetails = () => {
                 </div>
                { <div className='small-images-container'>
                     {
-                        product?.image.map((item, i) => (
+                        product?.image?.map((item, i) => (
                             <img key={i} src={item}
                             alt="small images"
                             className={i === index ? 'small-image selected-image': 'small-image'}
@@ -32,12 +32,12 @@ const ProductDetails = () => {
                 </div>}
             </div>
             <div className='product-detail-desc'>
-                <h1>{product.name}</h1>
+                <h1>{product?.name}</h1>
                
                 <h4>Details: </h4>
                 <p>{product.details}</p>
                 <p className='price'>
-                &#36;{product.price}
+                &#36;{product?.price}
                 </p>
                 
                 <div className='buttons'>
@@ -64,7 +64,7 @@ const ProductDetails = () => {
                 <div className='marquee'>
                     <div className='track'>
                     <div className='maylike-products-container'>
-                    {productDatas.map((item, i) => (
+                    {productDatas?.map((item, i) => (
                         <Product key={i} product={item}/>
                     ))}
                     </div>
