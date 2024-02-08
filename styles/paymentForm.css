@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+.subscribe{
+    width: 100%;
+    margin: 20px 0;
+    padding: 16px;
+    text-align: center;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    background-color: blue;
+    font-size: 18px;
+    outline: none;
+    border: none;
+}
+ .term1, .term2{
+    font-size: 12px;
+    font-weight: normal;
+   text-align: center;
+   margin-bottom: 20px;
+   font-family: 'Poppins', sans-serif;
+}
+.term2 a, .stripe-checkbox a{
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+}
+.stripe-checkbox{
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(0, 0, 0, 0.6);
+}
+.Eligibility{
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bold;
+    color: #454545;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+.Contact, .Refunds, .Legal{
+    font-weight: bold;
+    color: #454545;
+}
+.Eligibility_section{
+    width: 450px;
+    height: 450px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 3.1px 6.2px 6.2px hsl(0deg 0% 0% / 0.40);
+}
+.Eligibility_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+.Eligibility_top h1{
+    font-size: 18px;
+    font-weight: bold;
+    color: #454545;
+    font-family: 'Poppins', sans-serif;
+}
+.eligibility-Icon{
+    cursor: pointer;
+    color: #454545;
+}
+.Eligibility_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    list-style-type: none; 
+      color: rgba(0,0,0,0.6);
+}
+.Eligibility_link{
+    font-size: 12px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+.Eligibility_content{
+    padding: 20px 40px;
+}
+.refunds h1, .contacts h1, .legal h1{
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #454545;
+}
+
+.refunds ul li, .legal p, .contacts p{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Poppins', sans-serif;
+}
+.legal p a{
+    text-decoration: underline;
+}
+.underline{
+    text-decoration: underline;
+}
+.red-error{
+    color: red;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.policy{
+    background-color: #f8f8f8;
+    width: 100%;
+   min-height: 100vh;
+   padding: 40px;
+}
+.policy-header{
+    text-align: center;
+    font-size: 58px;
+    color: #454545;
+    font-family: 'Poppins', sans-serif;
+}
+.policy-body{
+    list-style: none;
+}
+.policy-content-body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #454545;
+}
+.policy-content{
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+}
+
+
