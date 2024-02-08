@@ -1,14 +1,13 @@
 import React, {useState} from 'react';
 import { useRouter } from 'next/router';
 import { useStateContext } from '../../Context/datacontext';
-import {AiOutlineMinus, AiOutlinePlus, AiOutlineStar, AiFillStar} from 'react-icons/ai';
 import Product from '../../Components/Product';
 
  
 const ProductDetails = () => {
     const router = useRouter();  
     const {productDatas, setPaymentDetail, qty, onAdd, product, user} = useStateContext();
-    const[index, setIndex] = useState(0);
+    const [index, setIndex] = useState(0);
   
   return (
     <div>
@@ -34,18 +33,7 @@ const ProductDetails = () => {
             </div>
             <div className='product-detail-desc'>
                 <h1>{product.name}</h1>
-                <div className='reviews'>
-                    <div>
-                        <AiFillStar/>
-                        <AiFillStar/>
-                        <AiFillStar/>
-                        <AiFillStar/>
-                        <AiOutlineStar/>
-                    </div>
-                        <p>
-                            (20)
-                        </p>
-                </div>
+               
                 <h4>Details: </h4>
                 <p>{product.details}</p>
                 <p className='price'>
