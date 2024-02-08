@@ -7,29 +7,17 @@ import Product from '../../Components/Product';
 const ProductDetails = () => {
     const router = useRouter();  
     const {productDatas, setPaymentDetail, qty, onAdd, product, user} = useStateContext();
-    const [index, setIndex] = useState(1);
+  
   
   return (
     <div>
         <div className='product-detail-container'>
             <div>
                 <div className='image-container'>
-                   <img src={product?.image[index]} alt="product image"
+                   <img src={product?.image[0]} alt="product image"
                    className='product-detail-image'/>
                 </div>
-               { <div className='small-images-container'>
-                    {
-                        product?.image?.map((item, i) => (
-                            <img key={i} src={item}
-                            alt="small images"
-                            className={i === index ? 'small-image selected-image': 'small-image'}
-                            onMouseEnter={() => {
-                                setIndex(i);
-                            }}
-                           />
-                        ))
-                    }
-                </div>}
+             
             </div>
             <div className='product-detail-desc'>
                 <h1>{product?.name}</h1>
