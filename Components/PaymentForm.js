@@ -45,7 +45,7 @@ const PaymentForm = () => {
               // Create the subscription
               const res = await axios.post('https://cute-jade-coral-tutu.cyclic.app/create-subscription', {
                   priceId: product?.priceId, 
-                  customerId: user?.result?.customerId
+                  customerId: user?.result?.customer
               })
               
               const clientSecret = res.data.clientSecret;
