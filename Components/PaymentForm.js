@@ -120,7 +120,7 @@ console.log(paymentIntent);
             selected == 'Legal' ? (
                 <div className="legal">
                 <h1><FaCreditCard/> Payment Terms</h1>
-                <p>All payments are securely processed by Stripe. View Stripe's <a href="https://stripe.com/en-gb-us/legal/end-customer-ach-payments-authorization" target='_blank'>terms and privacy</a> policies.</p>
+                <p>All payments are securely processed by Stripe. View Stripe's <a href="https://stripe.com/en-gb-us/legal/end-customer-ach-payments-authorization" target='_blank'>terms</a> and <a href="https://stripe.com/privacy" target='_blank'>privacy</a>  policies.</p>
                 </div>
             ) : selected == 'Refunds' ? (
                 <div className="refunds">
