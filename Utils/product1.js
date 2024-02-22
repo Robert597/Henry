@@ -4,15 +4,15 @@ export const products = [
     image: ['/assets/zanzibar.jpeg', '/assets/zanzibar.jpeg'],
     name: 'Bed Zanzibar',
     description: 'Wooden Bed with Leather and Wood Head board comfortable for sleeping',
-    price: 225.99,
-    priceId: 'price_1Ojt6eAwPxrBpTpt1cDr2GyN'
+    price: 39.23,
+    priceId: 'price_1OmMPZAwPxrBpTptXyKUDDWP'
 },
 {_id: 2,
     image: ['/assets/table.jpeg', '/assets/table.jpeg'],
     name: 'Center Table',
     description: '',
-    price: 850,
-    priceId: 'price_1OjtHOAwPxrBpTptMvfQNbFc'
+    price: 28.90,
+    priceId: 'price_1OmMSTAwPxrBpTptu1eb4TL0'
 },
 {
     _id: 3,
