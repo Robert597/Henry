@@ -4,39 +4,39 @@ export const products = [
     image: ['/assets/zanzibar.jpeg', '/assets/zanzibar.jpeg'],
     name: 'Bed Zanzibar',
     description: 'Wooden Bed with Leather and Wood Head board comfortable for sleeping',
-    price: 39.23,
-    priceId: 'price_1OmMPZAwPxrBpTptXyKUDDWP'
+    price: 5422.99,
+    priceId: 'price_1OsyebAwPxrBpTptpGL5EvQ3'
 },
 {_id: 2,
     image: ['/assets/table.jpeg', '/assets/table.jpeg'],
     name: 'Center Table',
     description: '',
-    price: 28.90,
-    priceId: 'price_1OmMSTAwPxrBpTptu1eb4TL0'
+    price: 4561.01,
+    priceId: 'price_1OsyjCAwPxrBpTptfHzMTCSQ'
 },
 {
     _id: 3,
     image: ['/assets/octavia.png', '/assets/octavia.png'],
     name: 'Bed Octavia',
-    price: 520.99,
+    price: 10289.99,
     description: 'Wooden Bed comfortable for sleeping',
-    priceId: 'price_1OjtjnAwPxrBpTptq9ZgNBtt'
+    priceId: 'price_1OsyoJAwPxrBpTpt6hWj22u3'
 },
 {
     _id: 4,
     image: ['/assets/sofa.jpeg', '/assets/sofa.jpeg'],
     name: 'Sofa',
-    price: 1500.99,
+    price: 5989.99,
     description: 'L-SHAPE FABRIC SOFA,ANIMAL SKIN, Length: 350 cm, Long side: 180 cm, Short side: 100 cm',
-    priceId: 'price_1Ojtn6AwPxrBpTptvjAFi1gH'
+    priceId: 'price_1OsysgAwPxrBpTptSZaI2Gwg'
 },
 {
     _id: 5,
     image: ['/assets/stand.jpeg', '/assets/stand.jpeg'],
     name: 'Luxury Tv Stand',
-    price: 225.99,
+    price: 3990.13,
     description: 'This Luxury Foreign tv stand will give your home a luxurious and elegant look. It has the capacity to support up to 20 kg of objects and devices, and it’s built with the best quality luxurious materials. When it comes to affordable luxury furnitures, VAVA Furniture have been serving the world with top-notch products with over 20 showrooms across the nation and several awards of excellence and quality production. We are dedicated to giving your home & offices a luxury look.',
-    priceId: 'price_1Ojt6eAwPxrBpTpt1cDr2GyN'
+    priceId: 'price_1OsyzhAwPxrBpTptYaLpL9Os'
 },
 {
     _id: 6,
